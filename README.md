@@ -6,7 +6,7 @@
 
 🌱 I’m currently learning Python/gdscript and HTML
 
-📫 How to reach me: [https://mailto:contact@samidy.com](email) (contact@samidy.com), or @samidy on discord.
+📫 How to reach me: [mailto:contact@samidy.com](email) (contact@samidy.com), or @samidy on discord.
 
 ✨ Projects:
 
