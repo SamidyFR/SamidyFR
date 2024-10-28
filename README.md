@@ -4,9 +4,9 @@
 
 👀 I Like: Programming, video games and Technology
 
-🌱 I’m currently learning Python/gdscript and HTML
+🌱 I’m currently learning Python
 
-📫 How to reach me: [email](mailto:contact@samidy.com) (contact@samidy.com), or @samidy on discord.
+📫 How to reach me: [website contact page](https://samidy.com/#contact) (contact@samidy.com), or @samidy on discord.
 
 ✨ Projects:
 
