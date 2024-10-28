@@ -16,7 +16,9 @@
 
 [noubisoft.site](https://www.noubisoft.site) - my ubisoft hate site. mainly made it for fun, but i also did because i really hate ubisoft.
 
-[MEMZ-Python-Recreation](https://github.com/SamidyFR/MEMZ-Python-Recreation) - got dared to do it at first, but updated it a little for fun and decided to upload it here.
+[MEMZ-Python-Recreation](https://github.com/SamidyFR/MEMZ-Python-Recreation) - we all know MEMZ right? got dared to do it at first, but updated it a little for fun and decided to upload it here.
+
+[Destructive-Button](https://github.com/SamidyFR/Destructive-Button) - Silly little python script that messes with your computer! you tell the script to press a button, and it does a random event that ensues chaos on your computer.
 
 ? - i will probably make more in the future. but right now im just procrastionating on coding. i dont hate the energy to do anything right now. 
 
