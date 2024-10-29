@@ -6,7 +6,7 @@
 
 🌱 I’m currently learning Python
 
-📫 How to reach me: [email](https://mailto:contact@samidy.com) (contact@samidy.com), or @samidy on discord.
+📫 How to reach me: [email](mailto:contact@samidy.com) (contact@samidy.com), or @samidy on discord.
 
 ✨ Projects:
 
