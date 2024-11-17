@@ -21,6 +21,7 @@
 [Destructive-Button](https://github.com/SamidyFR/Destructive-Button) - Silly little python script that messes with your computer! you tell the script to press a button, and it does a random event that ensues chaos on your computer.
 
 [What Am I Gonna Play On Steam Today? (WAIGPOST)](https://github.com/SamidyFR/Steam-Game-Picker) What Am I Gonna Play On Steam Today? (shortended to WAIGPOST) is a (VERY simple) Python script that looks into your steam game directory and picks a random game. 
+
 You Could Also Call This, "Yet Another Low Effort Steam Game Picker Script". or "YALESGPS"
 
 ? - i will probably make more in the future. but right now im just procrastionating on coding. i dont hate the energy to do anything right now. 
