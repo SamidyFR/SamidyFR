@@ -256,6 +256,25 @@ iframe {
 	border-color: #F4F4F4 #4E4E4E #4E4E4E #F4F4F4;
 }
 
+#messages {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 0;
+	cursor: default;
+}
+
+#messages:hover {
+	cursor: pointer;
+}
+
+#unread {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	right: 20px;
+}
+
 .taskbar {
 	width: 100vw;
 	display: flex;
