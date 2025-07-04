@@ -181,8 +181,8 @@ a {
 #projects-window {
 	display: none;
 	top: 190px;
-	right: 100px;
-	width: 400px;
+	right: 500px;
+	width: 600px;
 	height: 300px;
 	z-index: 1;
 }
