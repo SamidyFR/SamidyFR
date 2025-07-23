@@ -16,7 +16,7 @@
 
 [Destructive-Button](https://github.com/SamidyFR/Destructive-Button) - Silly little python script that messes with your computer! you tell the script to press a button, and it does a random event that ensues chaos on your computer.
 
-[Game-Decompilations](https://decomps.samidy.com), [2](https://github.com/SamidyFR/Game-Decompilations) - A **Big** list of every single game decompilation i could gather, constantly updated to add more decomps. You can contribute too!
+[Game-Decompilations](https://decomps.samidy.com), [2](https://github.com/SamidyFR/Game-Decompilations), [3](https://rentry.co/Gamedecomps - A **Big** list of every single game decompilation i could gather, constantly updated to add more decomps. You can contribute too!
 
 ? - i will probably make more in the future. but right now im just procrastionating on coding. i dont hate the energy to do anything right now. 
 
