@@ -1,4 +1,4 @@
-![Samidy](https://github-readme-stats.vercel.app/api?username=SamidyFR&show_icons=true&theme=cobalt)
+<class>![Samidy](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SamidyFR&theme=tokyonight)
 <h1><p align="center"> <a href="https://samidy.com"> SAMIDY.COM </p></a></h1>
 
 
