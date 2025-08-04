@@ -1,4 +1,11 @@
-<class>![Samidy](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SamidyFR&theme=tokyonight)
+<p align="center">
+<img src="https://avatars.githubusercontent.com/u/168582143?v=4" width="300" height="300">
+</p>
+
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SamidyFR&theme=tokyonight" alt="Github Stats" />
+</p>
 <h1><p align="center"> <a href="https://samidy.com"> SAMIDY.COM </p></a></h1>
 
 
