@@ -180,7 +180,31 @@ You can contact me via <a href="mailto:me@samidy.com">Email</a> or <a href="http
 
 </div>
 
-<div id="messages"><img src="images/letterbig.png"></img><img id="unread" src="images/unread.png"></img></div>
+<div id="messages" onclick="showMessages()">
+<img id="messages-letter" src="images/letterbig.png" style="width: 32px; height: 32px; margin-top: 10px;"></img><img id="unread" src="images/unread.png"></img>
+
+<div id="messages-triangle"></div>
+
+
+<div id="messages-triangle2"></div>
+
+
+<div id="messages-dialog">
+<p style="font-size: 14pt;">What's New</p>
+<hr>
+<br>
+<a href="https://samidy.com/Blog/blogs/newwebsite/NEWSITEWOO.html">New blog site!</a>
+<hr>
+<br>
+<a href="https://samidy.com/oldBlog/2025/02/04/After-100-5-Short-games-(Donut-County,-ClusterTruck,-Stanley-Parable-&-More).html">After 100%: 5 short games (Donut County, ClusterTruck, Stanley Parable & More)</a>
+<hr>
+<br>
+<a href="https://samidy.com/oldBlog/2024/08/26/after-100__-MULLET-MADJACK.html">After 100%: MULLET MADJACK</a>
+<hr>
+<br>
+<a href="https://samidy.com/Blog" style="font-size: 8pt; text-align: right;">check the blog here...</a>
+</div>
+</div>
 
 <div class="taskbar"><a href="https://samidy.com" class="start-button"><img src="images/start-button.png" class="start-button-image"></img></a><div id="time"></div></div>
 
@@ -208,6 +232,71 @@ function updateTime() {
 updateTime(); // call function once to get the ball rolling
 	
 setInterval(updateTime, 60000);
+
+let firstTimeShowMessages = true
+
+function showMessages() {
+	const messagesDialog = document.getElementById("messages-dialog");
+	const messagesTriangle = document.getElementById("messages-triangle");
+	const messagesTriangle2 = document.getElementById("messages-triangle2");
+	let messagesDialogDisplay = window.getComputedStyle(messagesDialog).display;
+	if (messagesDialogDisplay === "none") {
+
+
+		messagesDialog.style.display = "flex";
+
+
+		messagesTriangle.style.display = "flex";
+
+
+		messagesTriangle2.style.display = "flex";
+
+
+		messagesDialog.style.opacity = "1";
+
+
+		messagesTriangle.style.opacity = "1";
+
+
+		messagesTriangle2.style.opacity = "1";
+
+
+	} else if (messagesDialogDisplay === "flex") {
+
+
+		messagesDialog.style.display = "none";
+
+
+		messagesTriangle.style.display = "none";
+
+
+		messagesTriangle2.style.display = "none";
+
+
+		messagesDialog.style.opacity = "0";
+
+
+		messagesTriangle.style.opacity = "0";
+
+
+		messagesTriangle2.style.opacity = "0";
+
+
+	}
+	
+	if (firstTimeShowMessages === true) { //this code is for removing the red notification icon - after clicking once
+
+
+		document.getElementById("unread").style.display = "none";
+
+
+		firstTimeShowMessages = false;
+
+
+	}
+
+
+}
 
 window.addEventListener("load", () => {
 	let x = 0;
