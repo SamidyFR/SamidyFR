@@ -1,13 +1,165 @@
 <!DOCTYPE html>
 <html>
-  <head>
-   
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samidy: 404</title>
-  </head>
-  <body>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="images/logo.png">
+<link rel="manifest" href="manifest.json">
+<title>404!!!</title>
+</head>
+<body>
 
-  <h1>404, Not Found!</h1>
-  <h3>for this, you shall recieve but a nothing burger of a page.</h3>
-  <p> <a href="https://samidy.com">Go back to the main page.</p>
+<div class="desktopicon"><img src="images/pc.png"></img><p>My Computer</p></div>
+
+<!-- error window -->
+<div class="draggable" id="error-window">
+
+<div class="titlebar">
+<p><img src="images/error2small.png" class="windowicon"></img>Error Starting Program <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';" disabled>X</button></p>
+</div>
+
+<img src="images/error2.png" style="padding: 5px; margin-bottom: 10px;"></img>
+<p style="margin: 5px; padding: 5px; padding-left: 5px;">This program has performed an illegal operation. 404!!</p>
+<button style="padding: 3px; margin: 5px; margin-bottom: 15px; height: 30px; padding: 3px; width: 60px; font-family: MS Sans Serif; font-size: 9pt; font-weight: 500; border-width: 2px;"><a href="https://samidy.com" style="text-decoration: none; color: black;">Go Back</a></button>
+
+</div>
+
+<div id="messages" onclick="showMessages()">
+<img id="messages-letter" src="images/letterbig.png" style="width: 32px; height: 32px; margin-top: 10px;"></img><img id="unread" src="images/unread.png"></img>
+<div id="messages-triangle"></div>
+<div id="messages-triangle2"></div>
+<div id="messages-dialog">
+<p style="font-size: 14pt;">What's New</p>
+<hr>
+<br>
+<a href="https://blog.samidy.com/blogs/newwebsite/NEWSITEWOO.html">New blog site!</a>
+<hr>
+<br>
+<a href="https://samidyfr.github.io/oldBlog/2025/02/04/After-100-5-Short-games-(Donut-County,-ClusterTruck,-Stanley-Parable-&-More).html">After 100%: 5 short games (Donut County, ClusterTruck, Stanley Parable & More)</a>
+<hr>
+<br>
+<a href="https://samidyfr.github.io/oldBlog/2024/08/26/after-100__-MULLET-MADJACK.html">After 100%: MULLET MADJACK</a>
+<hr>
+<br>
+<a href="https://Blog.samidy.com/" style="font-size: 8pt; text-align: right;">check the blog here...</a>
+</div>
+</div>
+
+<div class="taskbar"><a href="https://samidy.com" class="start-button"><img src="images/start-button.png" class="start-button-image"></img></a><div id="time"></div></div>
+
+</body>
+
+<script>
+mobileDevice = false;
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { //mobile check AS YET UNUSED
+	mobileDevice = true;
+	console.log("mobile device detected")
+} else {
+	mobileDevice = false; //unnecessary but cleaner
+}
+
+let everything = document.querySelectorAll('*');
+everything.forEach(element => {
+	element.style.opacity = "0";
+	document.body.style.opacity = "1";
+	document.body.style.pointerEvents = "none";
+	element.style.transition = "0.5s";
+});
+
+function updateTime() {
+	let now = new Date();
+	let formattedTime = now.toLocaleString('en-US', { 
+		hour: 'numeric', 
+		minute: 'numeric', 
+		hour12: true 
+	});
+	document.getElementById('time').textContent = formattedTime;
+}
+	
+updateTime(); // call function once to get the ball rolling
+	
+setInterval(updateTime, 60000);
+
+const firstTimeShowMessages = true
+
+function showMessages() {
+	const messagesDialog = document.getElementById("messages-dialog");
+	const messagesTriangle = document.getElementById("messages-triangle");
+	const messagesTriangle2 = document.getElementById("messages-triangle2");
+	let messagesDialogDisplay = window.getComputedStyle(messagesDialog).display;
+	if (messagesDialogDisplay === "none") {
+		messagesDialog.style.display = "flex";
+		messagesTriangle.style.display = "flex";
+		messagesTriangle2.style.display = "flex";
+		messagesDialog.style.opacity = "1";
+		messagesTriangle.style.opacity = "1";
+		messagesTriangle2.style.opacity = "1";
+	} else if (messagesDialogDisplay === "flex") {
+		messagesDialog.style.display = "none";
+		messagesTriangle.style.display = "none";
+		messagesTriangle2.style.display = "none";
+		messagesDialog.style.opacity = "0";
+		messagesTriangle.style.opacity = "0";
+		messagesTriangle2.style.opacity = "0";
+	}
+	
+	if (firstTimeShowMessages === true) { //this code is for removing the red notification icon - after clicking once
+		document.getElementById("unread").style.display = "none";
+		firstTimeShowMessages = false;
+	}
+}
+
+window.addEventListener("load", () => {
+	let x = 0;
+	let y = 0;
+	let z = 1;
+	let lastDrag = document.getElementById('main-window');
+	let currentDrag = null;
+	everything.forEach(element => {
+		element.style.opacity = "1";
+		document.body.style.backgroundColor = "#008080";
+		document.body.style.pointerEvents = "auto";
+	});
+	var timeOptions = {
+		hour: 'numeric', 
+		minute: 'numeric', 
+		hour12: true,
+		hourCycle: 'h12'
+	};
+	
+	document.querySelectorAll(".draggable").forEach(draggable=>{
+		const titlebar = draggable.querySelector('.titlebar');
+		let dragOffsetY = 0;
+
+		  titlebar.addEventListener('mousedown', (e) => {
+			if (e.button !== 0) return;
+			const rect = draggable.getBoundingClientRect();
+			dragOffsetY = e.clientY - rect.top;
+
+			function onMouseMove(e) {
+			  draggable.style.top = (e.clientY - dragOffsetY) + 'px';
+			  draggable.style.left = (e.clientX - rect.width / 2) + 'px';
+			}
+
+			function onMouseUp() {
+			  document.removeEventListener('mousemove', onMouseMove);
+			  document.removeEventListener('mouseup', onMouseUp);
+			  draggable.classList.remove('dragging');
+			}
+
+			document.addEventListener('mousemove', onMouseMove);
+			document.addEventListener('mouseup', onMouseUp);
+			
+			draggable.classList.add('dragging');
+						
+			currentDrag = document.getElementsByClassName('dragging');
+			if (currentDrag != lastDrag) {
+				draggable.style.zIndex = z++;
+				lastDrag = draggable;
+			}
+			
+			e.preventDefault();
+		});
+	});
+});
+</script>
+</html>
