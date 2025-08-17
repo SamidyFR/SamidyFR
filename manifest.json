@@ -1,4 +1,4 @@
 {
     "display":      "standalone",
-    "orientation":  "landscape", /* Landscape is better everywhere, for this site */
+    "orientation":  "landscape",
 }
