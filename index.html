@@ -10,12 +10,12 @@
 
 <div class="desktopicon"><img src="images/pc.png"></img><p>My Computer</p></div>
 <div class="desktopicon"><img src="images/foldersmall.png" onclick="document.getElementById('main-window').style.display = 'flex';" onmouseover="this.src = 'images/openfoldersmall.png'" onmouseout="this.src = 'images/foldersmall.png'"></img><p>File Explorer</p></div>
-<div class="desktopicon"><img src="images/fmhy.png" onclick="location.href='https://samidy.com/fmhy';"></img><p>FMHY</p></div>
-<div class="desktopicon"><img src="images/GameDecompilationsIcon.png" onclick="location.href='https://decomps.samidy.com/';"></img><p>Game Decomps</p></div>
-<div class="desktopicon"><img src="images/ie.png" onmouseover="this.src = 'images/error.png'" onmouseout="this.src='images/ie.png'"></img><p>The Internet</p></div>
+<div class="desktopicon"><img src="images/fmhy.png" onclick="location.href='https://fmhy.net';"></img><p>FMHY</p></div>
+<audio id="errorAudio" src="error.mp3" preload="auto"></audio>
+<div class="desktopicon"><img src="images/ie.png" onmouseover="this.src = 'images/error.png'; document.getElementById('errorAudio').play();" onmouseout="this.src='images/ie.png'"></img><p>The Internet</p></div>
 
 <!-- main window -->
-<div class="draggable" id="main-window" data-window="main">
+<div class="draggable" id="main-window">
 
 <div class="titlebar">
 <p><img src="images/foldertiny.png" class="windowicon"></img>File Explorer <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">X</button><button>🗔</button><button>_</button></p>
@@ -55,7 +55,7 @@
 </div>
 
 <!-- about window -->
-<div class="draggable" id="about-window" data-window="about">
+<div class="draggable" id="about-window">
 
 <div class="titlebar">
 <p><img src="images/certificate.png" class="windowicon"></img> About Me! <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">X</button><button>🗔</button><button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">_</button></p>
@@ -76,7 +76,7 @@ Hello! My name is Samidy. i LOVE tech, mainly around computers. anything around 
 </div>
 
 <!-- projects window -->
-<div class="draggable" id="projects-window" data-window="projects">
+<div class="draggable" id="projects-window">
 
 <div class="titlebar">
 <p><img src="images/executable.png" class="windowicon"></img> Projects <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">X</button><button>🗔</button><button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">_</button></p>
@@ -92,7 +92,7 @@ Hello! My name is Samidy. i LOVE tech, mainly around computers. anything around 
 <div class="content">
 
 <div class="folder">
-<img src="images/folderbig.png" class="folderimage"></a>(WIP) Radio.Samidy</img>
+<a href="https://github.com/SamidyFR/MEMZ-Python-Recreation"><img src="images/folderbig.png" class="folderimage"></a>MEMZ-Python-Recreation</img>
 </div>
 
 <div class="folder">
@@ -100,20 +100,15 @@ Hello! My name is Samidy. i LOVE tech, mainly around computers. anything around 
 </div>	
 
 <div class="folder">
-<a href="https://Blog.Samidy.com"><img src="images/folderbig.png" class="folderimage"></a>Blog</img>
+<a href="https://github.com/SamidyFR/Destructive-Button"><img src="images/folderbig.png" class="folderimage"></a>Destructive Button</img>
 </div>	
-
-<div class="folder">
-<a href="https://decomps.samidy.com"><img src="images/folderbig.png" class="folderimage"></a>Game Decompilation List</img>
-</div>	
-
 
 </div>
 
 </div>
 
 <!-- blog window -->
-<div class="draggable" id="blog-window" data-window="blog">
+<div class="draggable" id="blog-window">
 
 <div class="titlebar">
 <p><img src="images/notepad.png" class="windowicon"></img> Blog <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">X</button><button>🗔</button><button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">_</button></p>
@@ -127,14 +122,14 @@ Hello! My name is Samidy. i LOVE tech, mainly around computers. anything around 
 </div>
 	
 <div class="content">
-<iframe src="https://blog.samidy.com"></iframe>
-<button class="visit"><a href="https://blog.samidy.com" style="font-size: 10pt; text-decoration: none;">VISIT</a></button>
+<iframe src="https://samidy.com/Blog"></iframe>
+<button class="visit"><a href="https://samidy.com/Blog" style="font-size: 10pt; text-decoration: none;">VISIT</a></button>
 </div>
 
 </div>
 
 <!-- credits window -->
-<div class="draggable" id="credits-window" data-window="credits">
+<div class="draggable" id="credits-window">
 
 <div class="titlebar">
 <p><img src="images/chip.png" class="windowicon"></img> Credits <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">X</button><button>🗔</button><button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">_</button></p>
@@ -159,7 +154,7 @@ website by <a href="https://linktr.ee/svrbrndmg">Severe</a>... JAVASCRIPT SUCKS!
 </div>
 
 <!-- contact window -->
-<div class="draggable" id="contact-window" data-window="contact">
+<div class="draggable" id="contact-window">
 
 <div class="titlebar">
 <p><img src="images/letter.png" class="windowicon"></img> Contact <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">X</button><button>🗔</button><button>_</button></p>
@@ -174,19 +169,45 @@ website by <a href="https://linktr.ee/svrbrndmg">Severe</a>... JAVASCRIPT SUCKS!
 	
 <div class="content">
 <p>
-You can contact me via <a href="mailto:me@samidy.com">Email</a> or <a href="https://discord.com/users/1063716802988867684">Discord</a>.
+You can contact me via <a href="mailto:samidy@proton.me">Email</a> or <a href="https://discord.com/users/1063716802988867684">Discord</a>.
 </p>
 </div>
 
 </div>
 
-<div id="messages"><img src="images/letterbig.png"></img><img id="unread" src="images/unread.png"></img></div>
+<div id="messages" onclick="showMessages()">
+<img id="messages-letter" src="images/letterbig.png" style="width: 32px; height: 32px; margin-top: 10px;"></img><img id="unread" src="images/unread.png"></img>
+<div id="messages-triangle"></div>
+<div id="messages-triangle2"></div>
+<div id="messages-dialog">
+<p style="font-size: 14pt;">What's New</p>
+<hr>
+<br>
+<a href="https://samidy.com/Blog/blogs/newwebsite/NEWSITEWOO.html">New blog site!</a>
+<hr>
+<br>
+<a href="https://samidy.com/oldBlog/2025/02/04/After-100-5-Short-games-(Donut-County,-ClusterTruck,-Stanley-Parable-&-More).html">After 100%: 5 short games (Donut County, ClusterTruck, Stanley Parable & More)</a>
+<hr>
+<br>
+<a href="https://samidy.com/oldBlog/2024/08/26/after-100__-MULLET-MADJACK.html">After 100%: MULLET MADJACK</a>
+<hr>
+<br>
+<a href="https://samidy.com/Blog" style="font-size: 8pt; text-align: right;">check the blog here...</a>
+</div>
+</div>
 
 <div class="taskbar"><a href="https://samidy.com" class="start-button"><img src="images/start-button.png" class="start-button-image"></img></a><div id="time"></div></div>
 
 </body>
 
 <script>
+mobileDevice = false;
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { //mobile check AS YET UNUSED
+	mobileDevice = true;
+} else {
+	mobileDevice = false; //unnecessary but cleaner
+}
+
 let everything = document.querySelectorAll('*');
 everything.forEach(element => {
 	element.style.opacity = "0";
@@ -208,6 +229,35 @@ function updateTime() {
 updateTime(); // call function once to get the ball rolling
 	
 setInterval(updateTime, 60000);
+
+const firstTimeShowMessages = true
+
+function showMessages() {
+	const messagesDialog = document.getElementById("messages-dialog");
+	const messagesTriangle = document.getElementById("messages-triangle");
+	const messagesTriangle2 = document.getElementById("messages-triangle2");
+	let messagesDialogDisplay = window.getComputedStyle(messagesDialog).display;
+	if (messagesDialogDisplay === "none") {
+		messagesDialog.style.display = "flex";
+		messagesTriangle.style.display = "flex";
+		messagesTriangle2.style.display = "flex";
+		messagesDialog.style.opacity = "1";
+		messagesTriangle.style.opacity = "1";
+		messagesTriangle2.style.opacity = "1";
+	} else if (messagesDialogDisplay === "flex") {
+		messagesDialog.style.display = "none";
+		messagesTriangle.style.display = "none";
+		messagesTriangle2.style.display = "none";
+		messagesDialog.style.opacity = "0";
+		messagesTriangle.style.opacity = "0";
+		messagesTriangle2.style.opacity = "0";
+	}
+	
+	if (firstTimeShowMessages === true) { //this code is for removing the red notification icon - after clicking once
+		document.getElementById("unread").style.display = "none";
+		firstTimeShowMessages = false;
+	}
+}
 
 window.addEventListener("load", () => {
 	let x = 0;
