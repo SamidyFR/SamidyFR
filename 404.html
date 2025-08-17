@@ -14,10 +14,10 @@
 <div class="draggable" id="error-window">
 
 <div class="titlebar">
-<p><img src="images/error2small.png" class="windowicon"></img>Error Starting Program <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';" disabled>X</button></p>
+<p><img src="images/errortwosmall.png" class="windowicon"></img>Error Starting Program <button onclick="this.parentElement.parentElement.parentElement.style.display = 'none';" disabled>X</button></p>
 </div>
 
-<img src="images/error2.png" style="padding: 5px; margin-bottom: 10px;"></img>
+<img src="images/errortwo.png" style="padding: 5px; margin-bottom: 10px;"></img>
 <p style="margin: 5px; padding: 5px; padding-left: 5px;">This program has performed an illegal operation. 404!!</p>
 <button style="padding: 3px; margin: 5px; margin-bottom: 15px; height: 30px; padding: 3px; width: 60px; font-family: MS Sans Serif; font-size: 9pt; font-weight: 500; border-width: 2px;"><a href="https://samidy.com" style="text-decoration: none; color: black;">Go Back</a></button>
 
@@ -79,7 +79,7 @@ updateTime(); // call function once to get the ball rolling
 	
 setInterval(updateTime, 60000);
 
-const firstTimeShowMessages = true
+let firstTimeShowMessages = true
 
 function showMessages() {
 	const messagesDialog = document.getElementById("messages-dialog");
@@ -87,25 +87,61 @@ function showMessages() {
 	const messagesTriangle2 = document.getElementById("messages-triangle2");
 	let messagesDialogDisplay = window.getComputedStyle(messagesDialog).display;
 	if (messagesDialogDisplay === "none") {
+
+
 		messagesDialog.style.display = "flex";
+
+
 		messagesTriangle.style.display = "flex";
+
+
 		messagesTriangle2.style.display = "flex";
+
+
 		messagesDialog.style.opacity = "1";
+
+
 		messagesTriangle.style.opacity = "1";
+
+
 		messagesTriangle2.style.opacity = "1";
+
+
 	} else if (messagesDialogDisplay === "flex") {
+
+
 		messagesDialog.style.display = "none";
+
+
 		messagesTriangle.style.display = "none";
+
+
 		messagesTriangle2.style.display = "none";
+
+
 		messagesDialog.style.opacity = "0";
+
+
 		messagesTriangle.style.opacity = "0";
+
+
 		messagesTriangle2.style.opacity = "0";
+
+
 	}
 	
 	if (firstTimeShowMessages === true) { //this code is for removing the red notification icon - after clicking once
+
+
 		document.getElementById("unread").style.display = "none";
+
+
 		firstTimeShowMessages = false;
+
+
 	}
+
+
 }
 
 window.addEventListener("load", () => {
