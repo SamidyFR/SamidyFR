@@ -24,11 +24,13 @@ I got More on My Website [Samidy.com](https://samidy.com)
 <h1></h1>
 <h2><p align="center">Projects:</p></h2>
 
+[Virgil](https://virgil.samidy.com), [2](https://virgil-search.pages.dev/) / [GitHub](https://github.com/SamidyFR/Virgil) - multi-site pirated game search engine. designed to help beginners and advanced piraters aliked.
+
+[Game-Decompilations](https://decomps.samidy.com) / [GitHub](https://github.com/SamidyFR/Game-Decompilations) / [Rentry](https://rentry.co/Gamedecomps) - A **Big** list of every single game decompilation i could gather, constantly updated to add more decomps. You can contribute too btw :P
+
 [samidy.com](https://www.samidy.com) - THE website you need, no-need for anything else on the internet but this.
 
 [Blog](https://www.samidy.com/blog) - My own blog to write whatever fuck i do, i mean theres probably only gonna be like 2 posts a year lol
-
-[Game-Decompilations](https://decomps.samidy.com) / [GitHub](https://github.com/SamidyFR/Game-Decompilations) / [Rentry](https://rentry.co/Gamedecomps) - A **Big** list of every single game decompilation i could gather, constantly updated to add more decomps. You can contribute too btw :P
 
 <h1></h1>
 <h2><p align="center">Contact Me</p></h2>
