@@ -168,6 +168,7 @@ a {
 	width: 750px;
 	height: 400px;
 	z-index: 1;
+	box-shadow: 10px 10px #4D4D4D;
 }
 
 #about-window {
@@ -177,6 +178,7 @@ a {
 	width: 200px;
 	height: 360px;
 	z-index: 1;
+	box-shadow: 10px 10px #4D4D4D;
 }
 
 #about-window .content {
@@ -191,6 +193,7 @@ a {
 	width: 470px;
 	height: 300px;
 	z-index: 1;
+	box-shadow: 10px 10px #4D4D4D;
 }
 
 #projects-window .content {
@@ -205,6 +208,7 @@ a {
 	width: 600px;
 	height: 450px;
 	z-index: 1;
+	box-shadow: 10px 10px #4D4D4D;
 }
 
 #blog-window .content {
@@ -222,6 +226,7 @@ a {
 	width: 200px;
 	height: 200px;
 	z-index: 1;
+	box-shadow: 10px 10px #4D4D4D;
 }
 
 #credits-window .content {
@@ -236,6 +241,7 @@ a {
 	width: 400px;
 	height: 100px;
 	z-index: 1;
+	box-shadow: 10px 10px #4D4D4D;
 }
 
 #contact-window .content {
@@ -257,6 +263,7 @@ a {
 	left: 35%;
 	top: 40%;
 	padding-right: 2px;
+	box-shadow: 10px 10px #4D4D4D;
 }
 
 iframe {
