@@ -38,7 +38,7 @@ Theres like a shitton of ways to contact me
 
 If its an issue with one of my projects on github, Open an issue on the repository.
 
-And to contct me for personal or General reason:
+And to contct me for personal or General reasons:
 1. [Email](mailto:me@samidy.com)
 2. [Discord](https://discord.com/users/1063716802988867684)
 3. [Twitter](https://x.com/samidyrn)
