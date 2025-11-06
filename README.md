@@ -24,7 +24,7 @@ I got More on My Website [Samidy.com](https://samidy.com)
 <h1></h1>
 <h2><p align="center">Projects:</p></h2>
 
-[Virgil](https://virgil.samidy.com), [2](https://virgil-search.pages.dev/) / [GitHub](https://github.com/SamidyFR/Virgil) - multi-site pirated game search engine. designed to help beginners and advanced piraters aliked.
+[Virgil](https://virgil.samidy.com)b / [GitHub](https://github.com/SamidyFR/Virgil) - multi-site pirated game & software search engine. designed to help beginners and advanced piraters aliked.
 
 [Game-Decompilations](https://decomps.samidy.com) / [GitHub](https://github.com/SamidyFR/Game-Decompilations) / [Rentry](https://rentry.co/Gamedecomps) - A **Big** list of every single game decompilation i could gather, constantly updated to add more decomps. You can contribute too btw :P
 
