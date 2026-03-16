@@ -29,7 +29,7 @@ I got More on My Website [Samidy.com](https://samidy.com)
 <h1></h1>
 <h2><p align="center">Projects:</p></h2>
 
-[Monochrome](https://monochrome.tf) / [GitHub](https://github.com/monochrome-music/monochrome) - Music streaming :P
+[Monochrome](https://monochrome.tf) / [GitHub](https://github.com/monochrome-music/monochrome) - privacy webUI for YOUR music :P
 
 [Virgil](https://virgil.samidy.com) / [GitHub](https://github.com/SamidyFR/Virgil) - multi-site pirated game & software search engine. designed to help beginners and advanced piraters aliked.
 
