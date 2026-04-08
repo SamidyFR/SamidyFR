@@ -31,6 +31,8 @@ I got More on My Website [Samidy.com](https://samidy.com)
 
 [Monochrome](https://monochrome.tf) / [GitHub](https://github.com/monochrome-music/monochrome) - privacy webUI for YOUR music :P
 
+[Virgil](https://virgil.samidy.com) / [GitHub](https://github.com/SamidyFR/Virgil) - multi-site pirated game & software search engine. designed to help beginners and advanced piraters aliked.
+
 [Game-Decompilations](https://decomps.samidy.com) / [GitHub](https://github.com/SamidyFR/Game-Decompilations) / [Rentry](https://rentry.co/decomps) - A **Big** list of every single game decompilation i could gather, constantly updated to add more decomps. You can contribute too btw :P
 
 [samidy.com](https://www.samidy.com) - THE website you need, no-need for anything else on the internet but this.
