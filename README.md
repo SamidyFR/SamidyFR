@@ -18,7 +18,7 @@
 
 Slop music, Maintains some stuff, "Programmer" :P
 
-Currently learning shit like Game Dev and fucking around with Web Dev
+Currently a web dev (sadly)
 
 Likes: Homebrewing/Jailbreaking, Anything about tech, Opium-Rap Slop Music
 
