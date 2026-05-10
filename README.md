@@ -1,51 +1,33 @@
-<p align="center">
-(god i gotta redo this soon...)
-</p>
+### Projects
 
+- [Monochrome](https://monochrome.tf/) - Free music streaming & downloads - [source](https://github.com/monochrome-music/monochrome)
+- [Virgil](https://virgil.samidy.com/) - Aggregator For Games, Software & APKS - [source](https://github.com/SamidyFR/Virgil)
+- [Decomps](https://decomps.fun) - largest list of game decompilations on the internet - [source](https://github.com/SamidyFR/Game-Decompilations)
 
-<p align="center">
-<img src="https://avatars.githubusercontent.com/u/168582143?v=4" width="300" height="300">
-</p>
+### Contact
 
+- Email - [me@samidy.com](mailto:me@samidy.com)
+- Twitter/X - [@samidyrn](https://x.com/samidyrn)
+- Discord - samidy
 
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SamidyFR&theme=tokyonight" alt="Github Stats" />
-</p>
-<h1><p align="center"> <a href="https://samidy.com"> SAMIDY.COM </p></a></h1>
+### Technologies
 
+**Languages**  
+[![Languages](https://skillicons.dev/icons?i=html,css,js,ts,py&perline=12)](https://skillicons.dev)
 
-<h2><p align="center">About Me:</p></h2>
+**Frameworks & Libraries**  
+[![Frameworks](https://skillicons.dev/icons?i=react,tauri,vite&perline=12)](https://skillicons.dev)
 
-Slop music, Maintains some stuff, "Programmer" :P
+**Databases & Backend**  
+[![Databases](https://skillicons.dev/icons?i=appwrite,nodejs,express,postgres,sqlite&perline=12)](https://skillicons.dev)
 
-Currently a web dev (sadly)
+**DevOps & Cloud**  
+[![DevOps](https://skillicons.dev/icons?i=bun,cloudflare,docker,npm,workers&perline=12)](https://skillicons.dev)
 
-Likes: Homebrewing/Jailbreaking, Anything about tech, Opium-Rap Slop Music
+**Tools & Platforms**  
+[![Tools](https://skillicons.dev/icons?i=figma,git,raspberrypi,visualstudio,vscodium,vitest&perline=12)](https://skillicons.dev)
 
+**Operating Systems**  
+[![OS](https://skillicons.dev/icons?i=debian,linux,windows&perline=12)](https://skillicons.dev)
 
-I got More on My Website [Samidy.com](https://samidy.com)
-
-
-<h1></h1>
-<h2><p align="center">Projects:</p></h2>
-
-[Monochrome](https://monochrome.tf) / [GitHub](https://github.com/monochrome-music/monochrome) - privacy webUI for YOUR music :P
-
-[Virgil](https://virgil.samidy.com) / [GitHub](https://github.com/SamidyFR/Virgil) - multi-site pirated game & software search engine. designed to help beginners and advanced piraters aliked.
-
-[Game-Decompilations](https://decomps.samidy.com) / [GitHub](https://github.com/SamidyFR/Game-Decompilations) / [Rentry](https://rentry.co/decomps) - A **Big** list of every single game decompilation i could gather, constantly updated to add more decomps. You can contribute too btw :P
-
-[samidy.com](https://www.samidy.com) - THE website you need, no-need for anything else on the internet but this.
-
-[Blog](https://www.samidy.com/blog) - My own blog to write whatever fuck i do, i mean theres probably only gonna be like 2 posts a year lol
-
-<h1></h1>
-<h2><p align="center">Contact Me</p></h2>
-Theres like a shitton of ways to contact me
-
-If its an issue with one of my projects on github, Open an issue on the repository.
-
-And to contct me for personal or General reasons:
-1. [Email](mailto:me@samidy.com)
-2. [Discord](https://discord.com/users/1063716802988867684)
-3. [Twitter](https://x.com/samidyrn)
+available to hire and commission. contact me.
