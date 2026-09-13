@@ -1,7 +1,5 @@
 ### Projects
 
-- [Monochrome](https://monochrome.tf/) - Free music streaming & downloads - [source](https://github.com/monochrome-music/monochrome)
-- [Virgil](https://virgil.samidy.com/) - Aggregator For Games, Software & APKS - [source](https://github.com/SamidyFR/Virgil)
 - [Decomps](https://decomps.fun) - largest list of game decompilations on the internet - [source](https://github.com/SamidyFR/Game-Decompilations)
 
 ### Contact
