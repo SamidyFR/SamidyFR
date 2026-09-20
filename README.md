@@ -27,5 +27,3 @@
 
 **Operating Systems**  
 [![OS](https://skillicons.dev/icons?i=debian,linux,windows&perline=12)](https://skillicons.dev)
-
-available to hire and commission. contact me.
