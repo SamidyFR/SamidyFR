@@ -1,6 +1,7 @@
 ### Projects
 
 - [Decomps](https://decomps.fun) - largest list of game decompilations on the internet - [source](https://github.com/SamidyFR/Game-Decompilations)
+- (I only publish projects im actually proud of, most of my JS-heavy projects are private lol)
 
 ### Contact
 
