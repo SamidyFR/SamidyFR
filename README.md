@@ -6,7 +6,7 @@
 ### Contact
 
 - Email - [me@samidy.com](mailto:me@samidy.com)
-- Twitter/X - [@samidyrn](https://x.com/samidyrn)
+- Twitter/X - [@samidyreal](https://x.com/samidyreal)
 - Discord - samidy
 
 ### Technologies
